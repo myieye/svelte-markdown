@@ -1,7 +1,7 @@
 {
-  "name": "svelte-markdown",
+  "name": "@myieye/svelte-markdown",
   "description": "A markdown renderer for Svelte",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "main": "dist/sveltemarkdown.js",
   "module": "dist/sveltemarkdown.es.js",
   "jsnext:main": "dist/sveltemarkdown.es.js",
@@ -14,8 +14,8 @@
   ],
   "license": "MIT",
   "author": "Pablo Berganza <pablo@berganza.dev>",
-  "repository": "github:pablo-abc/svelte-markdown",
-  "homepage": "https://github.com/pablo-abc/svelte-markdown",
+  "repository": "github:myieye/svelte-markdown",
+  "homepage": "https://github.com/myieye/svelte-markdown",
   "scripts": {
     "build": "vite build",
     "dev": "vite build --watch",
