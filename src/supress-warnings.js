@@ -4,7 +4,7 @@ export function supressWarnings(renderers) {
   // https://vitejs.dev/guide/env-and-mode.html
   if (import.meta?.env?.DEV === false) return; // we're suppressing warnings that are only shown in dev mode
 
-  const isBrowser = typeof window?.document !== 'undefined';
+  const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
   if (!isBrowser) return; // we don't want to change anything on the server, especially, because we only undo the change on the client (in onMount)
 
   const markdownComponentNames = Object.values(renderers)
